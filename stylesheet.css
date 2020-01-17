@@ -1,0 +1,188 @@
+.title {
+  color: #02ccba;
+}
+
+.container{
+  width: 1170px;
+  padding: 0 15px;
+  margin:0 auto;
+
+}
+
+.top-wrapper {
+  height:500px;
+  padding:  180px 0 100px 0;
+  background-image: url(https://i.pinimg.com/originals/20/70/02/2070029c5434300a1e4292485897b377.png);
+  background-size: cover;
+  text-align: center;
+
+}
+
+ .top-wrapper h1{
+   font-size:50px;
+   letter-spacing:5px
+   color:black;
+ }
+
+ .top-wrapper p{
+   font-size:35px;
+   padding-left:30px;
+
+ }
+
+.btn{
+  padding:8px 24px;
+  color:white;
+  display:inline-block;
+  border-radius: 10px;
+  opacity:0.8;
+
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.fourty-seven{
+  background-color: #239b76;
+  margin-right: 10px;
+}
+
+.ninety-nine{
+  background-color:#3b5998;
+}
+
+.hundred{
+  background-color:#55acee;
+}
+
+header{
+  height:65px;
+  background-color:rgba(34,49,52,0.9);
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:40;
+}
+
+.logo{
+  font-size:30px;
+  color:red;
+  letter-spacing:10px;
+  padding-top:15px;
+}
+
+.header-left{
+  float:left;
+}
+
+.header-right{
+  float:right;
+  background-color:grey;
+  transition:all 0.5s;
+}
+
+.header-right a{
+  display:block;
+  padding:0 25px;
+  line-height:65px
+}
+
+.header-right:hover{
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.main-wrapper{
+  height:500px;
+  padding-bottom:80px;
+
+}
+
+.heading{
+  padding:50px 0 30px 0;
+}
+
+.heading h2{
+  font-weight:normal;
+  border-bottom:solid black;
+  padding-bottom:20px;
+  text-align: center;
+}
+
+.mode{
+  float:left;
+  width:25%;
+  height:100px;
+}
+
+.mode-icon img{
+  height:300px;
+  width:auto;
+  position:relative;
+}
+
+
+.modes{
+  text-align:center;
+}
+
+.mode-icon p{
+  position:absolute;
+  top:1070px;
+  width:24%;
+  z-index:30;
+  color:white;
+  font-size:30px;
+}
+
+.txt-contents{
+  width:80%;
+  display:inline-block;
+  padding-top:10px;
+}
+
+.conclusion-wrapper{
+  margin-top:50px;
+  padding-bottom:30px;
+  text-align: center;
+}
+
+.container h3{
+  font-weight:normal;
+
+}
+
+.message{
+  background-color:#5dca88;
+  padding:15px 40px;
+  cursor:pointer;
+  box-shadow:0 7px #1a7940
+
+}
+
+.btn:active{
+  box-shadow: none;
+  position:relative;
+  top:7px;
+}
+
+footer h4{
+float: left;
+}
+
+footer p{
+  float:right;
+}
+
+footer span{
+  background-color:orange;
+  border-radius: 10px;
+  padding:10px 50px;
+  position: relative;
+  top:10px
+}
+
+footer{
+  padding-top:15px;
+  border-top: solid black;
+}
